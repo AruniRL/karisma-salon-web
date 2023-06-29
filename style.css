@@ -1,0 +1,582 @@
+/* menu */
+.icon .fas{
+    color: #111;
+    position: absolute;
+    top: 70px;
+    right: 30px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.6s;
+  
+  }
+  .sidenav a {
+    padding: 9px 9px 9px 33px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+    display: block;
+    transition: 0.4s;
+    
+  }
+  .sidenav a img{
+    margin-right: 5px;
+    margin-top: -2px;
+  }
+  
+  .sidenav .fa-times{
+    color: #000000;
+    font-size: 20px;
+  
+  }
+  .sidenavmapph{
+      margin-top: 300px;
+  }
+  .sidenav a:hover{
+   text-decoration: none ;
+   color: #254520;
+  }
+  .iconmenus{
+      padding: 0px 3px;
+  }
+
+.form-inline{
+    padding: 40px 40px 20px;
+    cursor: pointer;
+}
+
+.footer p{
+    color: #FFFFFF;
+}
+
+.footer ul{
+    list-style: none;
+    text-align: center;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer ul li a {
+	 		text-decoration: none;
+             display: inline-block;
+             color: #FFFFFF;
+	 	}
+/* 
+.hr{
+    border-top:0.25px solid #FFFFFF;
+} */
+
+.social a{
+    color: #FFFFFF;
+    padding: 0px 15px;
+    width: 20px;
+    height: 16px;
+
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.termscontainer h1{
+  font-family: "Poppins";
+  font-size: 50px;
+  font-weight: 600px;
+  color: black;
+  padding: 20px 0px 20px;
+
+}
+
+.termscontainer p{
+    font-family: "Poppins";
+    font-size: 18px;
+    text-align: left;
+    padding: 20px 0px 20px;
+}
+.termscontainer h5{
+    font-family: "Poppins";
+    font-size: 32px;
+    text-align: left;
+    padding: 20px 0px 20px;
+    font-weight: 600px;
+}
+
+.termscontact{
+    color: #254520;
+    font: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.termsbutton{
+   padding: 0px 24px 0px 24px;
+   margin-right: 50px;
+}
+
+.button {
+    background-color: #254520; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+input[type="checkbox"]{
+    background-color: #254520;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="checkbox"]:hover{
+    color: #254520;
+}
+
+.checkboxlabel{
+    color: #1A1A1A;
+    font-size: 18px;
+}
+
+.checkboxlabel span{
+    color: #254520;
+    font-weight: 500;
+}
+
+.formlabels{
+    color: #1A1A1A;
+}
+
+.submitbutton{
+    background-color: #254520; /* Green */
+  border: none;
+  color: white;
+ border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+  cursor: pointer;
+}
+.contactus-topic{
+    text-align: center;
+}
+
+/* about */
+.abouthrtag{
+    border-top: 1px solid grey;
+}
+.flexabout{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* index */
+
+.discover{
+    font-size: 42px;
+    font-weight: 400;
+}
+.hairst{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.indexheaderhr{
+    border-top: 2px solid grey;
+    width: 55%; 
+    margin-left: 2px; 
+}
+
+.indexshedule{
+    background-color: #254520; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;  
+}
+
+.indexservice{
+    background-color: #ffffff;
+    border-color:gainsboro; 
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 4px; 
+    text-decoration: underline;
+}
+.rectangleseven{
+    width: 500px;
+    height: 45px;
+    border:1px solid gray;
+    border-radius: 5px;
+    display: flex;
+   padding: 10px;
+   font-size: 18px;
+   font-weight: 600;
+    
+}
+
+.karismaspecial{
+    margin-left: 20px;
+}
+.pricespecial{
+    margin-left: 253px;
+}
+.reactnglebuttons{
+    margin-top: 20px;
+}
+.button11{
+    color: #254520;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 6px 2px;
+  cursor: pointer;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+.containerss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box1,.box2,.box3{
+    width: 300px;
+    height: 320px;
+}
+
+.sheduleanappoint-para{
+    line-height: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.indeformrow{
+    padding: 30px 10px 30px;
+}
+.indexformsubmit{
+    cursor: pointer;
+    background-color: #254520; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 70px 20px;
+   border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.indexformrowscap{
+    margin-top: 30px;
+}
+
+.indexaboutlogo{
+    float: right;
+    margin-top: -95px;
+}
+.indexaboutsection{
+    padding: 100px 0px 0px;
+}
+
+.indexlocation{
+    font-size: 34px;
+    font-weight: 500;
+    margin-left: 10px;
+
+}
+.indexlocationimage{
+    width: 30px;
+    height: 40px;
+}
+
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-section .card{
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px;
+    width: 325px;
+    height: 200px;
+}
+
+.pricerectangle-right{
+    margin-top: 42.5px;
+}
+.pricerectangle-left1{
+    margin-bottom: 8px;
+}
+
+.rectanglesevenn{
+    width: 500px;
+    height: 45px;
+    border:1px solid gray;
+    background-color: #a3a3a3;
+    border-radius: 5px;
+    display: flex;
+   padding: 10px;
+   font-size: 14px;
+   font-weight: 600;
+    
+}
+.pricelistleftt{
+    margin-left: 9px;
+}
+.pricespecial28{
+    margin-left: 320px;
+}
+.pricespecial26{
+    margin-left: 340px;
+}
+.pricespecial32{
+    margin-left: 358px;
+}
+.pricespecial17{
+    margin-left: 320px;
+}
+.pricespecial22{
+    margin-left: 230px;
+}
+.pricespecial7{
+    margin-left: 340px;
+}
+.pricespecial10{
+    margin-left: 310px;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+
+
+@media only screen and (min-width:375px){
+    .form-inline{
+        padding: 40px 0px 0px;
+    }  
+
+    /* .footer ul li{
+        display: inline-block;
+        padding: 0px 10px;
+        color: #FFFFFF;
+        margin-right: 30px;
+    } */
+    .submitbutton{
+        padding: 10px 100px 10px 100px;
+        margin: 50px 0px;
+        margin-left: 23px;
+    }
+    input[type="checkbox"]{
+        margin-left: -16px;
+    } 
+    .checkboxlabel{
+        color: #1A1A1A;
+        font-size: 18px;
+        margin-top: -28px;
+    }
+    .wrapper iframe{
+        width: 350px;
+        height: 350px;
+    }
+    .about-navlogo{
+    margin-top: 4rem;
+    margin-left: -13rem;
+    }
+    .heroimageindexp{
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .content-section{
+        flex-direction: column;
+    }
+    .heroimageindexp{
+        display: none;
+    }
+    .indexservice{
+        margin-top: 6px;
+    }
+    .rectanglesevenn{
+        width: 350px;
+    height: 45px;
+    border:1px solid gray;
+    background-color: #a3a3a3;
+    border-radius: 5px;
+    display: flex;
+   padding: 10px;
+   font-size: 14px;
+   font-weight: 600;
+    }
+    .pricespecial28{
+        margin-left: 100px;
+    }
+    .pricespecial26{
+        margin-left: 120px;
+    }
+    .pricespecial32{
+        margin-left: 135px;
+    }
+    .pricespecial17{
+        margin-left: 130px;
+    }
+    .pricespecial22{
+        margin-left: 40px;
+    }
+    .pricespecial7{
+        margin-left: 148px;
+    }
+    .pricespecial10{
+        margin-left: 120px;
+    }
+    .pricespecial{
+        margin-left: 40px;
+    }
+    .rectangleseven{ 
+            width: 350px;   
+    }
+    .carosaltopic{
+        margin-left: 4px;
+    }
+    .carousel-inner{
+        margin-left: 70px;
+    }
+    .cardvisittopic{
+        margin-left: 4px;
+    }
+    .leftmap{
+        display: none;
+    }
+    .rightimage{
+        display: none;
+    }
+    .indexaboutinsideimage{
+        width: 350px;
+        height: 300px;
+    }
+    .sheduleanappoint-header{
+        text-align: center;
+    }
+    .sheduleanappoint-para{
+        line-height: 5px;
+        margin-top: 30px;
+        font-size: 15px; 
+        margin-left: 5px; 
+    }
+    .termsbutton {
+        margin-left: -18px;
+    }
+    .footer ul li{
+        padding: 0px 6px;
+        color: #FFFFFF;
+        margin-right: 30px;
+    }
+    .social{
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width:1000px){
+    .form-inline{
+        padding: 50px 40px 20px;
+    } 
+    .nav-logo{
+        margin-left: 30px; 
+    } 
+    .wrapper{
+        padding: 0px 210px;
+    } 
+    .form-check{
+        margin-left: -15px;
+    }
+    .submitbutton{
+        padding: 10px 300px 10px 280px;
+        margin: 50px 0px;
+    }
+    .wrapper iframe{
+        width: 690px;
+        height: 450px;
+    }
+    .about-navlogo{
+        margin-top: -18px;
+        margin-left: 0rem;
+        }
+    .indexleftcolumn{
+        margin-top: 160px;
+    }
+    .heroimageindexp{
+        width:740px;
+         height:570px;
+    }
+    .content-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
