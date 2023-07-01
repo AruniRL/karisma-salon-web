@@ -3,7 +3,7 @@
     color: #111;
     position: absolute;
     top: 70px;
-    right: 30px;
+    right: 70px;
     font-size: 18px;
     cursor: pointer;
   }
@@ -41,15 +41,34 @@
   
   }
   .sidenavmapph{
-      margin-top: 300px;
+      margin-top: 270px;
   }
   .sidenav a:hover{
    text-decoration: none ;
    color: #254520;
   }
+  .termsbuttonside{
+      margin-top: 40px;
+    background-color: #254520; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px; 
+  }
   .iconmenus{
       padding: 0px 3px;
+      font-family: "Poppins";
+      font-weight: 300;
   }
+.hero-section-scrolldown{
+    font-weight: 500;
+    font-family: "Poppins";
+    margin-top: 100px;
+}
 
 .form-inline{
     padding: 40px 40px 20px;
@@ -126,7 +145,7 @@
 
 .termsbutton{
    padding: 0px 24px 0px 24px;
-   margin-right: 50px;
+   margin-right: 100px;
 }
 
 .button {
@@ -187,6 +206,13 @@ input[type="checkbox"]:hover{
 .flexabout{
     display: flex;
     justify-content: space-evenly;
+}
+.indexaboutheader{
+    text-align: center;
+}
+.indexaboutheaderpara{
+    text-align: left;
+    margin: 10px 150px;
 }
 
 /* index */
@@ -250,6 +276,7 @@ input[type="checkbox"]:hover{
     margin-top: 20px;
 }
 .button11{
+    background-color: #E5E4E2;
     color: #254520;
   border: none;
   border-radius: 10px;
@@ -325,14 +352,19 @@ background: #707070;
 }
 
 .indexlocation{
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 500;
     margin-left: 10px;
 
 }
 .indexlocationimage{
-    width: 30px;
-    height: 40px;
+    width: 20px;
+    height: 30px;
+    margin-top: 10px;
+}
+.viewonmap{
+    margin-left: 250px;
+    text-decoration: underline;
 }
 
 .content-section{
@@ -342,15 +374,19 @@ background: #707070;
     text-align: center;
 }
 .content-section .card{
+    color: #254520;
     flex: 1;
     margin: 20px 20px;
     box-shadow: 0px 2px 8px 0px;
     width: 325px;
     height: 200px;
 }
+.content-section .card p{
+    margin-top: 20px;
+}
 
 .pricerectangle-right{
-    margin-top: 42.5px;
+    margin-top: 45px;
 }
 .pricerectangle-left1{
     margin-bottom: 8px;
@@ -360,7 +396,7 @@ background: #707070;
     width: 500px;
     height: 45px;
     border:1px solid gray;
-    background-color: #a3a3a3;
+    background-color: #f8f9fa;
     border-radius: 5px;
     display: flex;
    padding: 10px;
@@ -390,7 +426,7 @@ background: #707070;
     margin-left: 340px;
 }
 .pricespecial10{
-    margin-left: 310px;
+    margin-left: 316px;
 }
 
 .blog .carousel-indicators {
@@ -412,7 +448,20 @@ background: #707070;
 background: #707070;
 }
 
+.nav-logo{
+    max-height: 92px;
+}
 
+.termsheader form{
+    margin-left: -100px;
+}
+
+.leftmap{
+    border-radius: 4px;
+}
+.john{
+    font-weight: 500;
+}
 
 @media only screen and (min-width:375px){
     .form-inline{
@@ -447,7 +496,8 @@ background: #707070;
     margin-left: -13rem;
     }
     .heroimageindexp{
-        width: 300px;
+        max-height: 550px;
+        max-width: 700px;
     }
 
 }
@@ -503,9 +553,7 @@ background: #707070;
     .carosaltopic{
         margin-left: 4px;
     }
-    .carousel-inner{
-        margin-left: 70px;
-    }
+   
     .cardvisittopic{
         margin-left: 4px;
     }
@@ -529,7 +577,7 @@ background: #707070;
         margin-left: 5px; 
     }
     .termsbutton {
-        margin-left: -18px;
+        display: none;
     }
     .footer ul li{
         padding: 0px 6px;
@@ -539,6 +587,18 @@ background: #707070;
     .social{
         display: inline-block;
     }
+    .icon .fas{
+        right: 20px;
+    }
+    .indexlocationimage{
+        display: none;
+    }
+    .viewonmap{
+        left: 50px;
+    }
+    .why-us .content {
+        padding: 60px 50px 0 50px;
+      }
 }
 
 @media only screen and (min-width:1000px){
@@ -580,3 +640,151 @@ background: #707070;
         text-align: center;
     }
 }
+
+
+.why-us .about-section-logo{
+    max-height: 80px;
+    margin-left: 30px; 
+    margin-top: -48px;
+  }
+  .why-us .content {
+    padding: 60px 100px 0 100px;
+    margin-left: 100px;
+  }
+  
+  .why-us .content h2 {
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+  }
+  
+  .why-us .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .why-us .content p {
+    font-size: 15px;
+    color: #000000;
+  }
+  
+  .why-us .img {
+    max-height: 500px;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+  }
+  
+  .why-us .about-readmore-btn{
+    cursor: pointer;
+    border: none;
+    background-color: none;
+    text-decoration: none;
+  }
+  
+  .why-us .accordion-list {
+    padding: 0 100px 60px 100px;
+  }
+  
+  .why-us .accordion-list ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .why-us .accordion-list li+li {
+    margin-top: 15px;
+  }
+  
+  .why-us .accordion-list li {
+    padding: 20px;
+    background: #fff;
+    border-radius: 4px;
+  }
+  
+  .why-us .accordion-list a {
+    display: block;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-right: 30px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .why-us .accordion-list span {
+    color: #47b2e4;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 10px;
+  }
+  
+  .why-us .accordion-list i {
+    font-size: 24px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .why-us .accordion-list p {
+    margin-bottom: 0;
+    padding: 10px 0 0 0;
+  }
+  
+  .why-us .accordion-list .icon-show {
+    display: none;
+  }
+  
+  .why-us .accordion-list a.collapsed {
+    color: #343a40;
+  }
+  
+  .why-us .accordion-list a.collapsed:hover {
+    color: #47b2e4;
+  }
+  
+  .why-us .accordion-list a.collapsed .icon-show {
+    display: inline-block;
+  }
+  
+  .why-us .accordion-list a.collapsed .icon-close {
+    display: none;
+  }
+  
+  @media (max-width: 1024px) {
+  
+    .why-us .content,
+    .why-us .accordion-list {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .why-us .img {
+      min-height: 400px;
+    }
+  
+    .why-us .content {
+      padding-top: 30px;
+    }
+  
+    .why-us .accordion-list {
+      padding-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .why-us .img {
+      min-height: 200px;
+    }
+    .why-us .content {
+        margin-left: 20px;
+      }
+      .why-us .about-section-logo{
+          margin-left: 110px;
+          margin-top: -140px;
+      }
+  }
+

@@ -14,3 +14,5 @@ sideBarMenu.style.width ="250px";
 closeBtn.addEventListener('click', ()=>{
   sideBarMenu.style.width ="0";
 })
+
+

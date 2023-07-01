@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title> </title>
+    <title>Karisma Salon</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--style css-->
@@ -21,6 +21,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet" />
 
+    <!-- Datepicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -35,7 +42,7 @@
 
 <body>
     <nav class="navbar  justify-content-between">
-        <img class="nav-logo" src="image/karisma-logo.png" width="255.25px" height="92px" alt="">
+        <img class="nav-logo" src="image/karisma-logo.png" alt="">
         <div class="termsheader">
             <form class="form-inline">
                 <div class="termsbutton">
@@ -43,6 +50,9 @@
                 </div>
 
                 <div id="sideBarNav" class="sidenav">
+                        <div class="termsbuttonside">
+                                <button class="button">Schedule an appointment</button>
+                            </div>
                     <a href="index.html">
                         <img src="icons/home.png">Homepage</a>
                     <a href="index.html">
@@ -62,7 +72,9 @@
                     </div>
                 </div>
                 <div class="icon">
-                    <i class="fas fa-bars"><span class="iconmenus">Menu</span></i>
+                    <i class="fas fa-bars">
+                        <span class="iconmenus">Menu</span>
+                    </i>
                 </div>
         </div>
         </form>
@@ -84,72 +96,83 @@
                     <button class="indexservice">Services</button>
                     <hr class="d-sm-none">
                 </div>
+                <div class="hero-section-scrolldown">
+                    <i class="bi bi-chevron-down"></i> <span>Scroll down</span>
+                </div>
             </div>
-
             <div class="col-sm-6">
-                <img class="heroimageindexp" src="image/hero-image.png" width="740px" height="570px">
+                <img class="heroimageindexp" src="image/hero-image.png">
             </div>
         </div>
 
         <div class="row" style="margin-top:30px">
             <div class="col-sm-6">
-                <h2>Price List</h2>
-                <div class="pricerectangle-left">
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="pricelistleftt">MEN'S HAIRCUT</span>
-                            <span class="pricespecial28">$28</span>
-                        </div>
-                    </div>
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="pricelistleftt">SENIORS 65+</span>
-                            <span class="pricespecial26">$26</span>
-                        </div>
-                    </div>
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="pricelistleftt">SKIN FADE</span>
-                            <span class="pricespecial32">$32</span>
-                        </div>
-                    </div>
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="pricelistleftt">CHILDREN CUT(UNDER 19)</span>
-                            <span class="pricespecial">$26</span>
-                        </div>
-                    </div>
-                </div>
+                  
             </div>
             <div class="col-sm-6">
-                <div class="pricerectangle-right">
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="karismaspecial">BEARD TRIM</span>
-                            <span class="pricespecial17">$17</span>
+                
+            </div>
+        </div>
+
+        <div class="row" style="margin-top:30px">
+                <div class="col-sm-6">
+                        <h2>Price List</h2>
+                    <div class="pricerectangle-left">
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="pricelistleftt">MEN'S HAIRCUT</span>
+                                <span class="pricespecial28">$28</span>
+                            </div>
+                        </div>
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="pricelistleftt">SENIORS 65+</span>
+                                <span class="pricespecial26">$26</span>
+                            </div>
+                        </div>
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="pricelistleftt">SKIN FADE</span>
+                                <span class="pricespecial32">$32</span>
+                            </div>
+                        </div>
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="pricelistleftt">CHILDREN CUT(UNDER 19)</span>
+                                <span class="pricespecial">$26</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="karismaspecial">BEARD TRIM & HOT SHAVE</span>
-                            <span class="pricespecial22">$22</span>
+                </div>
+                <div class="col-sm-6">
+                    <div class="pricerectangle-right">
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="karismaspecial">BEARD TRIM</span>
+                                <span class="pricespecial17">$17</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="karismaspecial">SHAMPOO</span>
-                            <span class="pricespecial7">$7</span>
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="karismaspecial">BEARD TRIM & HOT SHAVE</span>
+                                <span class="pricespecial22">$22</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="pricerectangle-left1">
-                        <div class="rectanglesevenn">
-                            <span class="karismaspecial">FACE WAXING</span>
-                            <span class="pricespecial10">$10</span>
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="karismaspecial">SHAMPOO</span>
+                                <span class="pricespecial7">$7</span>
+                            </div>
+                        </div>
+                        <div class="pricerectangle-left1">
+                            <div class="rectanglesevenn">
+                                <span class="karismaspecial">FACE WAXING</span>
+                                <span class="pricespecial10">$10</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
         <hr>
         <div class="row" style="margin-top:30px">
@@ -197,22 +220,22 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-1.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-2.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-1.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-2.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                 </div>
@@ -224,22 +247,22 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-1.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-2.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-1.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                     <div class="col-md-3">
                                         <a href="#">
-                                            <img src="http://placehold.it/250x250" alt="Image" style="max-width:100%;">
+                                            <img src="image/gallery-2.png" alt="Image" style="max-width:100%;">
                                         </a>
                                     </div>
                                 </div>
@@ -306,23 +329,23 @@
                 <div class="leftmap">
                     <p>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2806.1450488427245!2d-75.92318329999999!3d45.3054955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cd2006518300003%3A0x812bbc4056715e7!2s8221%20Campeau%20Dr%20Suite%20C%2C%20Kanata%2C%20ON%20K2T%200A2%2C%20Canada!5e0!3m2!1sen!2slk!4v1687861563484!5m2!1sen!2slk"
-                            width="550" height="690" style="border-radius:2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        width="500" height="600"    style="border-radius:6px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </p>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="rightimage">
-                    <img src="image/shop-front.png" width="550" height="690">
+                    <img src="image/shop-front.png" width="500" height="600">
                 </div>
             </div>
         </div>
 
         <div class="row" style="margin-top:30px">
             <img class="indexlocationimage" src="icons/location.png">
-            <p class="indexlocation">8221 Campeau Dr Suite C, Kanata, ON K2T 0A2</p>
+            <p class="indexlocation">8221 Campeau Dr Suite C, Kanata, ON K2T 0A2</p> <a href="https://www.google.com/maps/place/8221+Campeau+Dr+Suite+C,+Kanata,+ON+K2T+0A2,+Canada/@45.3054955,-75.9231833,17z/data=!3m1!4b1!4m6!3m5!1s0x4cd2006518300003:0x812bbc4056715e7!8m2!3d45.3054955!4d-75.9231833!16s%2Fg%2F11sn00c4m8?entry=ttu" target="_blank" class="viewonmap">View on Map</a>
         </div>
 
-        <div class="row" style="margin-top:30px;background-color: gainsboro">
+        <!-- <div class="row" style="margin-top:30px;">
             <div class="col-sm-6">
                 <div class="indexaboutsection">
                     <div class="indexaboutheader">
@@ -341,8 +364,36 @@
             <div class="col-sm-6">
                 <img class="indexaboutinsideimage" src="image/about_inside-karisma.png" height="600px" width="550px">
             </div>
-        </div>
+        </div> -->
 
+        
+    </div><!-- containerclose -->
+
+    <section id="why-us" class="why-us section-bg bg-light"  style="margin-bottom:30px">
+            <div class="container-fluid" data-aos="fade-up">
+      
+              <div class="row">
+      
+                <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+      
+                  <div class="content">
+                    <h2>About<img class="about-section-logo" src="image/karisma-logo.png"></h2>
+                    <p>
+                        Welcome to Karisma Barbershop, where style meets precision! Our team of skilled barbers is dedicated to providing you with exceptional grooming services in a modern and welcoming environment. At Karisma, we<span id="dots"></span><span id="more"> understand that a great haircut is more than just a trim - it's an expression of your individuality and confidence. Step into our shop and experience the perfect blend of classic barbershop charm and contemporary flair...</span>
+                    </p><button class="about-readmore-btn" onclick="myFunction()" id="myBtn">Read more <i class="bi bi-chevron-right"></i></button>
+                  </div>
+      
+                </div>
+                <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img">
+                        <img  src="image/about_inside-karisma.png" height="450px">
+              </div>
+                <!-- <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" style='background-image: url("assets/img/about_inside-karisma.png");' ></div> -->
+              </div>
+      
+            </div>
+          </section>
+
+    <div class="container" style="margin-top:30px">
         <div class="row" style="margin-top:30px">
             <div>
                 <div class="sheduleanappoint-header">
@@ -370,7 +421,7 @@
                             <input type="email" class="form-control" id="inputPassword4" placeholder="Enter here...">
                         </div>
                         <div class="indexformrowscap form-group col-md-6">
-                            <label for="inputPassword4">Your appointment with John</label>
+                            <label for="inputPassword4">Your appointment with <span class="john">John</span></label>
                             <input type="text" class="form-control" id="inputPassword4" placeholder="Select service">
                         </div>
                         <div class="indexformrowscap form-group col-md-6">
@@ -379,18 +430,25 @@
                         </div>
                         <div class="indexformrowscap form-group col-md-6">
                             <label for="inputPassword4">Appointment date</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="Pick a date">
+                            <!-- <input type="password" class="form-control" id='picker' placeholder="Pick a date"> -->
+                            <div class="input-group date" id="datepicker">
+                                <input type="text" class="form-control" placeholder="Pick a date">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-white">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                </span>
+                            </div>
                         </div>
                         <button class="indexformsubmit" type="submit">Submit</button>
                     </div>
+                   
                 </form>
             </div>
 
         </div>
         <!--row -->
-
     </div>
-    <!-- containerclose -->
 
 
     <div class="footer jumbotron text-center bg-dark" style="margin-bottom:0">
@@ -438,6 +496,8 @@
     </div>
 
     <script src="scripts.js"></script>
+   
+
 </body>
 
 </html>
